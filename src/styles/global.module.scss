@@ -1,0 +1,10 @@
+.wrapper {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC,
+    Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+
+  // 当且仅当css module是全局的才放到这里:
+  // 否则请单独在每个js入口引入
+  // @import url("../views/ModuleExample/example.module.scss");
+  @import url("../views/GlobalModuleExample/example.module.scss");
+}
